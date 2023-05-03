@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 14px;
+  font-family: cursive;
+  color: #333333;
+  background-color: #f2f2f2;
+}
+
+input{
+  padding: 1rem;
+  border-radius: 12px;
+  color: #333333;
+  border: none;
+  inline-size: 50%;
+}
+
+.app{
+  inline-size: 90%;
+  margin: 0 auto;
+}
+
+button{
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 12px;
+  color: #333333;
+  background-color: inherit;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+button:hover{
+  color: #f2f2f2;
+  background-color: #333333;
+}
+
+.alert{
+  background-color: green;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 15px;
+}
